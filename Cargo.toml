@@ -46,7 +46,7 @@ openssl = { version = "0.10", features = ["vendored"] }
 
 # kube feature
 kube = { version = "0.90", features = ["runtime", "derive"], optional = true }
-k8s-openapi = { version = "0.21", features = ["latest"], optional = true }
+k8s-openapi = { version = "0.22", features = ["latest"], optional = true }
 
 [dev-dependencies]
 scraper = "0.19.0"
