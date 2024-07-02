@@ -45,7 +45,7 @@ md5 = "0.7.0"
 openssl = { version = "0.10", features = ["vendored"] }
 
 # kube feature
-kube = { version = "0.90", features = ["runtime", "derive"], optional = true }
+kube = { version = "0.91", features = ["runtime", "derive"], optional = true }
 k8s-openapi = { version = "0.21", features = ["latest"], optional = true }
 
 [dev-dependencies]
